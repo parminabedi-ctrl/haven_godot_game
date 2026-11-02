@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dycam6f2th7rj"]
+
+[ext_resource type="Texture2D" uid="uid://if3f45j0yjfj" path="res://Pembe şeker emoji.jpg" id="1_etb2s"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lquwl"]
+size = Vector2(81, 80)
+
+[node name="Candy" type="Area2D" unique_id=377763844 groups=["Candy"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=653427884]
+position = Vector2(0, 1.0000019)
+scale = Vector2(0.15, 0.15)
+texture = ExtResource("1_etb2s")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2077466666]
+position = Vector2(0.5, 1)
+shape = SubResource("RectangleShape2D_lquwl")
